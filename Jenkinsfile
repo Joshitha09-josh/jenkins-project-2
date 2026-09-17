@@ -12,7 +12,7 @@ pipeline {
 
         stage('Generate Report') {
             steps {
-                bat 'python app.py'
+                bat 'C:/Python314/python.exe app.py'
             }
         }
 
